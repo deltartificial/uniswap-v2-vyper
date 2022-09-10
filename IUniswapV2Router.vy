@@ -140,13 +140,13 @@ interface IUniswapV2Router01:
     
     def getAmountsOut(
         _amountIn: uint256,
-        _path: address[3]
-    ) -> uint256[3]: view
+        _path: address[2]
+    ) -> uint256[2]: view
 
     def getAmountsIn(
         _amountOut: uint256,
-        _path: address[3]
-    ) -> uint256[3]: view
+        _path: address[2]
+    ) -> uint256[2]: view
 
     # IUniswapV2Router02 :
 
